@@ -23,31 +23,31 @@ char delimiter="]";           // keep a unique delimeter
                 out<<Counter<<"  ";
 		      // get each individual line in file
 			    getline(in,title); 
-                            out<<title;  
+                            out<<title;                 // get the title of job
                             out<<delimiter;
-			    getline(in,org); 
+			    getline(in,org);            // get organization name
 			    out<<org;
 			    out<<delimiter;
 			    getline(in,jobType);
-			    getline(in,type);
+			    getline(in,type);            // get the job type 
 		            out<<type;
                             out<<delimiter;
-			    getline(in,jobShift);
+			    getline(in,jobShift);         // get the type of Job shift  
 			    getline(in,shift);
 			    out<<shift;
 			    out<<delimiter;
-			    getline(in,experience);
-			    getline(in,years);
+			    getline(in,experience);  
+			    getline(in,years);                 // get the experinece of job
 			    out<<years;
 			    out<<delimiter;
 			    getline(in,sal);
-			    getline(in,salary);
+			    getline(in,salary);                // get salary range
 			    out<<salary;
 			    out<<delimiter;
-			    getline(in,desc);
+			    getline(in,desc);                //get the description of the job
 			    out<<desc;
 			    out<<delimiter;
-			    getline(in,loc_date);
+			    getline(in,loc_date);             // get the Location and date  
 			    out<<loc_date;
 			    out<<delimiter;
 			    out<<endl;
